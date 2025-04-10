@@ -1,0 +1,101 @@
+"""
+a = 8
+b = 7
+if (a > b):
+    print("ja")
+else:
+    print("nein")
+
+    
+
+time = input("Enter the time: ")
+int(time)
+if time < 12:
+    print("The first half of the day")
+else:
+    print("Afternoon")
+
+
+import random
+
+print("Rolling the dice...")
+dice = random.randint(1, 6)
+print(f"You rolled a {dice}!")
+
+if dice == 6:
+    print("🎉 Jackpot!")
+
+    
+"""
+
+"""
+import random
+
+fortunes = [
+    "Du wirst heute etwas cooles lernen",
+    "Achtung, es könnte sein das du heute Wasser trinkst!",
+    "Dein Code wird funktionieren, vielleicht auch nicht",
+    "Am besten neustarten",
+    "Jemand benutzt dein WLAN zuhause (Papa und Mama)"
+]
+
+print("Deine Vorhersage:")
+print(random.choice(fortunes))
+
+"""
+
+"""
+temp = int(input("Gib die Temperatur in °C ein: "))
+
+if temp < 0:
+    print("❄️ Eisig kalt!")
+elif temp < 15:
+    print("🧥 Frisch, Jacke nicht vergessen.")
+elif temp < 25:
+    print("🌤️ Angenehm!")
+else:
+    print("🔥 Ganz schön heiß heute!")
+
+"""
+
+
+"""
+import random
+
+coin = random.randint(0, 1)
+
+if coin == 0:
+    print("🪙 Kopf")
+else:
+    print("🪙 Zahl")
+
+"""
+
+"""
+ c = float(input("Temperatur in Celsius: "))
+    f = (c * 9/5) + 32
+    print(f"{c}°C sind {f:.1f}°F")
+
+km = float(input("Kilometer: "))
+mi = km / 1.609
+print(f"{km} km sind {mi:.2f} Meilen")
+
+"""
+
+
+#while 
+"""
+a = 5
+while a < 10:
+    print(f"a ist {a}, aber noch kleiner als 10.")
+    a += 1
+print("Fertig, a ist jetzt 10 oder größer.")
+
+"""
+
+"""
+while True:
+    eingabe = input(Press q for break!)
+    if eingabe == "q":
+        break
+"""
